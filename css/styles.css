@@ -16,13 +16,13 @@ body, html {
 
 /* nav bar */
 .head {
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
 }
 
 .rightNav {
   float: right;
   margin-right: 15px;
-  border: 2px solid green;
+  /*border: 2px solid green;*/
   display: inline-block;
 }
 
@@ -58,29 +58,81 @@ li {
 .left-button {
   height: 100px;
   width: 400px;
-  border: 2px solid red;
+  border: 1px solid #8d8e92;
   display: inline-block;
   margin-right: 15px;
+  opacity: .7;
+  background-color: grey;
 }
-.left-button h1 {
-  font-size: 20px;
+.left-button li {
+  display: inline;
+}
+.left-button img {
+  height: 25px;
+  width: 25px;
 }
 
 .right-button {
   height: 100px;
   width: 400px;
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
   display: inline-block;
   margin-left: 15px;
+  background-color: #3365ae;
+  color: white;
 }
 
-.right-button h1 {
-  font-size: 20px;
-  display: inline-block;
+.right-button li {
+  display: inline;
 }
 
-/*.right-button, img {
-  display: inline-block;
+.right-button img {
   height: 25px;
   width: 25px;
-}*/
+}
+
+.widgets {
+  margin-top: 40px;
+}
+
+.app-store {
+  height: 100px;
+  width: 250px;
+  display: inline-block;
+    /*border: 2px solid green;*/
+    /*vertical-align: middle;*/
+}
+
+.app-store p {
+  display: inline;
+
+}
+
+.app-store img {
+  height: 30px;
+  width: 30px;
+  display: inline;
+}
+
+.travelistly {
+  height: 100px;
+  width: 250px;
+  display: inline-block;
+    /*border: 2px solid green;*/
+    /*vertical-align: middle;*/
+}
+
+.travelistly p {
+  display: inline;
+
+}
+
+.travelistly img {
+  height: 30px;
+  width: 30px;
+  display: inline;
+}
+span {
+  color: white;
+  font-size: 20px;
+}
