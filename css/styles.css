@@ -63,6 +63,7 @@ li {
   margin-right: 15px;
   opacity: .7;
   background-color: grey;
+  border-radius: 5px;
 }
 .left-button li {
   display: inline;
@@ -80,6 +81,7 @@ li {
   margin-left: 15px;
   background-color: #3365ae;
   color: white;
+  border-radius: 5px;
 }
 
 .right-button li {
