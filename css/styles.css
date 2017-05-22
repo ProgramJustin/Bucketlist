@@ -92,7 +92,7 @@ li {
 }
 
 .widgets {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .app-store {
@@ -135,4 +135,10 @@ li {
 span {
   color: white;
   font-size: 20px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 80px;
+  color: white;
 }
